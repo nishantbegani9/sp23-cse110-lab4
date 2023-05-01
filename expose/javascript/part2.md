@@ -22,47 +22,52 @@
 
 **10.** ``` 3 ``` is printed at _line 12_ because ``` length ``` is within the scope of the ``` const ``` declaration. ``` length ``` holds the length of the list. 
 
-**11.** This function will return ``` [50, 100, 300] ``` because the item prices are halved and then pushed into the array. 
+**11.** This function will return ```[50, 100, 300]``` because the item prices are halved and then pushed into the array. 
 
-**12.**
-    
-    A. ``` student.name ``` 
-    B. ``` student["Grad Year"] ```
-    C. ``` student.greeting(); ```
-    D. ``` student["Favorite Teacher"].name ```
-    E. ``` student.courseLoad[0] ``` 
+**12.** 
+
+    A. student.name
+
+    B. student["Grad Year"]
+
+    C. student.greeting();
+
+    D. student["Favorite Teacher"].name 
+
+    E. student.courseLoad[0]
+
 
 **13.** 
 
-        A. The output will be `` `'32' ``` because 2 will be converted to a string and then concatenated with 3 
+    A. The output will be '32' because 2 will be converted to a string and then concatenated with 3 
 
-        B. The output will be ``` 1 ``` because of the subtraction operation 3 will be changed to an integer and will be subtracted by 2
+    B. The output will be 1 because of the subtraction operation 3 will be changed to an integer and will be subtracted by 2
 
-        C. The output will be ``` 3 ``` because of the addition operation ``` null ``` will be changed to a 0 and added to 3 which is a integer 
+    C. The output will be 3 because of the addition operation null  will be changed to a 0 and added to 3 which is a integer 
 
-        D. The output will be ``` 3null``` because of the addition operation ``` null ``` will be concatenated with 3 which is a string
+    D. The output will be 3null  because of the addition operation null will be concatenated with 3 which is a string
 
-        E. The output will be ``` 4 ``` because ``` true ``` is converted to 1 
+    E. The output will be 4 because true is converted to 1 
 
-        F. The output will be ``` 0 ``` because both ``` false ``` and ``` null ``` will be added after gettiing converted to 0 
+    F. The output will be 0  because both false and null will be added after gettiing converted to 0 
 
-        G. The output will be ``` '3undefined' ``` because of the addition operation ``` undefined ``` will be concatenated with 3 which is a string
+    G. The output will be '3undefined' because of the addition operation undefined will be concatenated with 3 which is a string
 
-        H. The output will be ``` NaN ``` because ``` undefined ``` is NaN and 3 is converted to a integer
+    H. The output will be NaN because undefined is NaN and 3 is converted to a integer
 
 **14.** 
 
-    A. The output is ``` true ``` because 2 gets converted a integer 
+    A. The output is true because 2 gets converted a integer 
 
-    B. The output is ``` false ``` because it is string comparision and 1 comes before 2 
+    B. The output is false because it is string comparision and 1 comes before 2 
 
-    C. The output is ``` true ``` because the string 2 gets converted to an integer and then it is compared 
+    C. The output is true because the string 2 gets converted to an integer and then it is compared 
 
-    D. The output is ``` false ```  because it compares strict equality and both the values have different types, one is a integer and the other is a string. 
+    D. The output is false  because it compares strict equality and both the values have different types, one is a integer and the other is a string. 
 
-    E. The output is ``` false ``` because ``` true ``` is changed to its default value of ``` 1 ``` 
+    E. The output is false because true is changed to its default value of 1
 
-    F. The output is ``` true ``` because the second part gets conerted to ``` true ``` and then is compared 
+    F. The output is true because the second part gets conerted to true and then is compared 
 
 **15.** ``` == ``` compares the two values after converting the data types and ``` === ``` compares the two values before type conversion and checks for strict identity. 
 
